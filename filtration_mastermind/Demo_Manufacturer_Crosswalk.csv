@@ -1,0 +1,15 @@
+Manufacturer_ID,Manufacturer_Name,Aliases,Primary_Products,Industries,Is_Filtration,SKU_Count,Contact_Name,Contact_Email,Lead_Time_Days,Min_Order,Notes
+SG,SafeGuard Industries,"SafeGuard, SG Industries",Flame Arresters; Pressure/Vacuum Vents; Breather Valves; Emergency Vents,Oil & Gas; Chemical; Petrochemical,No,150,Robert Chen,rchen@safeguard-ind.com,14,500,Tank protection and safety equipment specialist
+BP,BluePump Co,"BluePump, Blue Pump Company",AODD Pumps; Diaphragm Pumps; Replacement Diaphragms,Industrial; Chemical; Food & Beverage,No,80,Sarah Miller,smiller@bluepump.com,5,250,Premium AODD pump manufacturer
+FF,FlexFlow Pumps,"FlexFlow, Flex Flow",Air Diaphragm Pumps; High Temp Pumps; Pump Parts,Industrial; Chemical,No,60,Mike Johnson,mjohnson@flexflow.com,5,200,Economical pump solutions
+PF,PureFilter Tech,"PureFilter, Pure Filter Technology",VHP Filter Housings; Pleated Cartridges; Membrane Cartridges,Filtration; Pharmaceutical; Food & Beverage,Yes,55,Jennifer Lee,jlee@purefilter.com,7,300,High-quality sanitary filtration housings
+IP,IndustrialPure,"Industrial Pure, IP Filtration",Depth Filters; Membrane Filters; SS Housings,Industrial; Pharmaceutical; Chemical,Yes,40,David Brown,dbrown@industrialpure.com,10,400,Industrial and pharmaceutical filtration
+CF,ClearFlow Systems,"ClearFlow, Clear Flow",Depth Sheets; Filter Presses; Lenticular Modules,Brewery; Food & Beverage; Wine,Yes,35,Amanda White,awhite@clearflow.com,14,250,Beverage clarification specialist
+PT,ProcessTech Sensors,"ProcessTech, Process Tech",pH Sensors; Conductivity Sensors; ORP Sensors; Transmitters,Water Treatment; Pharmaceutical; Chemical,No,25,Kevin Park,kpark@processtech.com,7,300,Process measurement and analytics
+MM,MetalMesh Pro,"MetalMesh, Metal Mesh Pro",Sintered SS Cartridges; Woven Mesh Filters; High Temp Housings,High Temp; Chemical; Aerospace,Yes,20,Lisa Zhang,lzhang@metalmesh.com,21,500,High temperature metal filtration
+PD,PrecisionDose,"Precision Dose, PD Pumps",Metering Pumps; Injection Quills; Chemical Dosing,Water Treatment; Chemical,No,15,Tom Wilson,twilson@precisiondose.com,5,200,Chemical metering and dosing
+DM,DrainMaster,"Drain Master",No Air Loss Drains; Timer Drains; Oil/Water Separators,Compressed Air; Industrial,Yes,10,Chris Davis,cdavis@drainmaster.com,7,300,Compressed air condensate management
+AF,AutoFilter Systems,"AutoFilter, Auto Filter",Auto Self-Cleaning Filters; Screen Filters,Water Treatment; Irrigation; Industrial,Yes,10,Nancy Taylor,ntaylor@autofilter.com,14,500,Automatic filtration systems
+VT,ValveTech,"Valve Tech",Back Pressure Valves; Relief Valves; Pulsation Dampeners,Chemical; Water Treatment,No,12,James Martin,jmartin@valvetech.com,5,150,Chemical feed accessories
+CS,ChemSeal Products,"ChemSeal, Chem Seal",Expansion Joints; PTFE Lined Pipe; Fittings,Chemical; Corrosive Applications,No,15,Emily Garcia,egarcia@chemseal.com,10,300,Corrosion resistant piping
+FG,FlowGate Valves,"FlowGate, Flow Gate",Butterfly Valves; Ball Valves; Actuators,Industrial; Chemical; Food & Beverage,No,20,Ryan Thompson,rthompson@flowgate.com,5,200,Flow control valves and automation

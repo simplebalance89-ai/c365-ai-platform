@@ -1,0 +1,22 @@
+OEM_Vendor,OEM_Part_Number,OEM_Description,Our_SKU,Our_Vendor,Our_Description,Match_Type,Match_Confidence,Notes
+Competitor Alpha,CA-DF-05-10,5 Micron Depth Filter 10",IP-DF-05-10,IndustrialPure,Depth Filter 5 Micron 10",Direct Replacement,High,Same dimensions and specs
+Competitor Alpha,CA-DF-05-20,5 Micron Depth Filter 20",IP-DF-05-20,IndustrialPure,Depth Filter 5 Micron 20",Direct Replacement,High,Same dimensions and specs
+Competitor Alpha,CA-DF-10-10,10 Micron Depth Filter 10",IP-DF-10-10,IndustrialPure,Depth Filter 10 Micron 10",Direct Replacement,High,Same dimensions and specs
+Competitor Alpha,CA-MEM-02-10,0.2um Membrane 10",IP-MF-02-10,IndustrialPure,Membrane Filter 0.2um 10",Functional Equivalent,High,Verify end cap compatibility
+Competitor Beta,CB-AODD-1,1" Aluminum AODD Pump,BP-AODD-100,BluePump Co,1" AODD Pump Aluminum,Functional Equivalent,Medium,Similar specs - verify port configuration
+Competitor Beta,CB-AODD-2,2" Aluminum AODD Pump,BP-AODD-200,BluePump Co,2" AODD Pump Aluminum,Functional Equivalent,Medium,Similar specs - verify port configuration
+Competitor Beta,CB-DIA-1-B,1" Buna Diaphragm,BP-DIA-100-B,BluePump Co,1" Diaphragm Buna-N,Direct Replacement,High,Universal fit for most 1" pumps
+Competitor Gamma,CG-HSG-304-10,304SS Housing 10",IP-HSG-304-10,IndustrialPure,304SS Housing Single 10",Direct Replacement,High,Standard dimensions
+Competitor Gamma,CG-HSG-316-10,316SS Housing 10",IP-HSG-316-10,IndustrialPure,316SS Housing Single 10",Direct Replacement,High,Standard dimensions
+Competitor Delta,CD-FA-2,2" Flame Arrester,SG-FA-200,SafeGuard Industries,Flame Arrester 2" NPT,Functional Equivalent,Medium,Verify thread type and pressure rating
+Competitor Delta,CD-PV-2,2" P/V Vent,SG-PV-200,SafeGuard Industries,Pressure/Vacuum Vent 2" NPT,Functional Equivalent,Medium,Verify set points match
+Competitor Epsilon,CE-MP-1GPH,1 GPH Metering Pump,PD-MP-100,PrecisionDose,Metering Pump 1 GPH,Functional Equivalent,Medium,Verify head material compatibility
+Competitor Epsilon,CE-MP-5GPH,5 GPH Metering Pump,PD-MP-500,PrecisionDose,Metering Pump 5 GPH,Functional Equivalent,Medium,Verify head material compatibility
+Competitor Zeta,CZ-SSC-10,10um Sintered SS Cart,MM-SSC-10-10,MetalMesh Pro,Sintered SS Cartridge 10um 10",Functional Equivalent,High,Same media type - verify connection
+Competitor Zeta,CZ-SSC-25,25um Sintered SS Cart,MM-SSC-25-10,MetalMesh Pro,Sintered SS Cartridge 25um 10",Functional Equivalent,High,Same media type - verify connection
+Competitor Eta,CH-BFV-2,2" Butterfly Valve,FG-BFV-200,FlowGate Valves,Butterfly Valve 2" 316SS EPDM,Functional Equivalent,Medium,Verify actuation requirements
+Competitor Eta,CH-BFV-4,4" Butterfly Valve,FG-BFV-400,FlowGate Valves,Butterfly Valve 4" 316SS EPDM,Functional Equivalent,Medium,Verify actuation requirements
+Competitor Theta,CT-AUTO-2,2" Auto Filter,AF-AUTO-200,AutoFilter Systems,Auto Self-Cleaning Filter 2",Functional Equivalent,Medium,Verify controller compatibility
+Competitor Theta,CT-SCR-100,100 Mesh Screen Filter,AF-SCR-100,AutoFilter Systems,Screen Filter 100 Micron,Direct Replacement,High,Standard irrigation fitting
+Unknown OEM,LEGACY-CART-5,Old 5um Cartridge,PF-CART-05-10,PureFilter Tech,5 Micron Pleated Cartridge 10",Spec Match,Low,Based on customer description - verify dimensions
+Unknown OEM,LEGACY-PUMP-1,Old 1" Transfer Pump,FF-AODD-100,FlexFlow Pumps,1" Air Diaphragm Pump,Spec Match,Low,Customer replacing obsolete equipment

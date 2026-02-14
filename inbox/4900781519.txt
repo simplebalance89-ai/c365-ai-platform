@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cXML SYSTEM "http://xml.cxml.org/schemas/cXML/1.2.067/cXML.dtd">
+<cXML payloadID="C9F59B1313EB1FD181EF491B8B0385A5" timestamp="2026-02-11T23:59:59+00:00" version="1.2.067"><Header>
+      <From>
+         <Credential
+            domain="NetworkID">
+            <Identity>AN01766006375</Identity>
+         </Credential><Credential
+            domain="SystemID">
+            <Identity>E4PCLNT100</Identity>
+         </Credential>
+         
+         
+      </From>
+      <To>
+         
+         <Credential
+                domain="NetworkID"><Identity>AN01000140312</Identity></Credential><Correspondent>
+            <Contact
+                    role="correspondent">
+               <Name
+                        xml:lang="EN">Enpro Inc.</Name>
+               <PostalAddress>
+                  <Street>121 S Lombard Rd</Street>
+                  <City>Addison</City>
+                  <Country
+                    isoCountryCode="US">USA</Country>
+               </PostalAddress>
+               <Email
+            name="routing">orders@enproinc.com</Email>
+            </Contact>
+         </Correspondent>
+      </To>
+      <Sender>
+         <Credential domain="AribaNetworkUserId">
+            <Identity>sysadmin@ariba.com</Identity>
+         </Credential>
+         
+         <UserAgent>Ariba Supplier</UserAgent>
+      </Sender>
+   </Header>
+<Request deploymentMode="production"><OrderRequest><OrderRequestHeader orderDate="2026-02-11T12:00:00+00:00"
+    orderID="4900781519" orderType="regular" orderVersion="1"
+            type="new">
+            <Total>
+               <Money
+            currency="USD">2751.73</Money>
+            </Total>
+            <ShipTo>
+               <Address
+            addressID="R110" addressIDDomain="buyerLocationID"
+                isoCountryCode="US">
+                  <Name
+                xml:lang="EN">MAIN WAREHOUSE</Name>
+                  <PostalAddress
+                    name="default">
+                     <Street>900 Old Red Trl NE</Street>
+                     <City>Mandan</City>
+                     <Municipality>MORTON</Municipality>
+                     <State>ND</State>
+                     <PostalCode>585541589</PostalCode>
+                     <Country
+                isoCountryCode="US"/>
+                  </PostalAddress>
+                  <Email
+                name="default"
+            preferredLang="en">bvanwagner@marathonpetroleum.com</Email>
+               </Address>
+               <IdReference
+            domain="buyerLocationID"
+            identifier="R110"/>
+               <IdReference
+            domain="storageLocationID"
+            identifier="0100"/>
+            </ShipTo>
+            <BillTo>
+               <Address
+            addressID="4701"
+                isoCountryCode="US">
+                  <Name
+                    xml:lang="EN">Tesoro Refining &amp; Marketing Company LLC</Name>
+                  <PostalAddress>
+                     <Street>PO Box 599500</Street>
+                     <City>San Antonio</City>
+                     <Municipality/>
+                     <State>TX</State>
+                     <PostalCode>78259-9701</PostalCode>
+                     <Country
+                        isoCountryCode="US"/>
+                  </PostalAddress>
+                  <Phone>
+                     <TelephoneNumber>
+                        <CountryCode
+                        isoCountryCode="US"/>
+                        <AreaOrCityCode/>
+                        <Number/>
+                     </TelephoneNumber>
+                  </Phone>
+                  <Fax>
+                     <TelephoneNumber>
+                        <CountryCode
+            isoCountryCode="US"/>
+                        <AreaOrCityCode/>
+                        <Number/>
+                     </TelephoneNumber>
+                  </Fax>
+               </Address>
+               <IdReference
+            domain="buyerID"
+        identifier="4701"/>
+            </BillTo>
+            <BusinessPartner
+        role="soldTo" type="organization">
+               <Address
+            addressID="P300" addressIDDomain="buyerAccountID"
+                isoCountryCode="US">
+                  <Name
+                    xml:lang="EN">Tesoro Refining &amp; Marketing Company LLC</Name>
+                  <PostalAddress>
+                     <Street>PO Box 599500</Street>
+                     <City>San Antonio</City>
+                     <State>TX</State>
+                     <PostalCode>78259-9701</PostalCode>
+                     <Country
+                        isoCountryCode="US"/>
+                  </PostalAddress>
+                  <Phone>
+                     <TelephoneNumber>
+                        <CountryCode
+                        isoCountryCode="US"/>
+                        <AreaOrCityCode/>
+                        <Number/>
+                     </TelephoneNumber>
+                  </Phone>
+                  <Fax>
+                     <TelephoneNumber>
+                        <CountryCode
+            isoCountryCode="US"/>
+                        <AreaOrCityCode/>
+                        <Number/>
+                     </TelephoneNumber>
+                  </Fax>
+               </Address>
+               <IdReference
+            domain="buyerAccountID"
+            identifier="P300"/>
+            </BusinessPartner>
+            <LegalEntity>
+               <IdReference
+            domain="CompanyCode"
+                identifier="4701">
+                  <Description
+            xml:lang="EN">Tesoro Refining &amp; Marketing Company LLC</Description>
+               </IdReference>
+            </LegalEntity>
+            <OrganizationalUnit>
+               <IdReference
+            domain="PurchasingOrganization"
+                identifier="P300">
+                  <Description
+            xml:lang="EN">Tesoro Refining &amp; Marketing Company LLC</Description>
+               </IdReference>
+            </OrganizationalUnit>
+            <OrganizationalUnit>
+               <IdReference
+            domain="PurchasingGroup"
+                identifier="Q07">
+                  <Description
+        xml:lang="EN">Tesoro Refining &amp; Marketing Company LLC</Description>
+               </IdReference>
+            </OrganizationalUnit>
+            <Contact
+        addressID="0006248613" addressIDDomain="buyerID"
+            role="supplierCorporate">
+               <Name
+                xml:lang="EN">Enpro Inc.</Name>
+               <PostalAddress>
+                  <Street>121 S Lombard Rd</Street>
+                  <City>Addison</City>
+                  <Municipality>DUPAGE</Municipality>
+                  <State>IL</State>
+                  <PostalCode>60101-3019</PostalCode>
+                  <Country
+            isoCountryCode="US"/>
+               </PostalAddress>
+               <Email
+                    name="default">orders@enproinc.com</Email>
+               <Fax>
+                  <TelephoneNumber>
+                     <CountryCode
+            isoCountryCode="US">1</CountryCode>
+                     <AreaOrCityCode/>
+                     <Number/>
+                  </TelephoneNumber>
+               </Fax>
+               <IdReference
+            domain="buyerID"
+        identifier="0007051331"/>
+            </Contact>
+            <Contact
+            role="purchasingAgent">
+               <Name
+                    xml:lang="en">Barrett Van Wagner</Name>
+               <Email>bvanwagner@marathonpetroleum.com</Email>
+               <Phone>
+                  <TelephoneNumber>
+                     <CountryCode
+        isoCountryCode="US"/>
+                     <AreaOrCityCode>1</AreaOrCityCode>
+                     <Number>701-667-2498</Number>
+                  </TelephoneNumber>
+               </Phone>
+            </Contact>
+            <Comments
+        type="Header Text"
+            xml:lang="EN">
+***************************************************************
+*** Please label all paperwork with our PO number, including any drop-shipments ***
+
+Please label all packages
+**Mandan and our PO number**
+
+Plant contact: main warehouse
+Buyer contact: Barrett D. Van Wagner Email: bvanwagner@marathonpetroleum.com PH: 701-667-2556
+Sales Rep: Josh Fletcher
+****************************************************************
+Please confirm Receipt and Tracking info to Barrett D. Van Wagner Email: bvanwagner@marathonpetroleum.com PH: 701-667-2556
+Receiving hours:
+Mandan location: M-F 7:30 am to 4:00 pm (central time)
+Dickinson location: M-F 7:30 am to 4:00 pm (mountain time)
+Please call ahead for any large orders that need special equipment to unload.
+For Mandan call Justin Gauley at 319-470-2611
+For Dickinson call the warehouse at 701-456-6967
+**Notes**
+***************************************************************
+</Comments>
+            <TermsOfDelivery>
+               <TermsOfDeliveryCode
+            value="TransportCondition"/>
+               <ShippingPaymentMethod
+            value="Account"/>
+               <TransportTerms
+                value="DDP">Delivered Duty Paid</TransportTerms>
+               <Address>
+                  <Name
+            xml:lang="EN"/>
+               </Address>
+            </TermsOfDelivery>
+            <OrderRequestHeaderIndustry>
+               <ExternalDocumentType
+                documentType="NB">
+                  <Description
+        xml:lang="EN">Standard PO</Description>
+               </ExternalDocumentType>
+            </OrderRequestHeaderIndustry>
+            <Extrinsic
+        name="Ariba.invoicingAllowed">Yes</Extrinsic>
+            <Extrinsic
+        name="Ariba.availableAmount">2751.73</Extrinsic>
+            <Extrinsic
+        name="partyAdditionalID">0007051331</Extrinsic>
+            <Extrinsic
+        name="AribaNetwork.PaymentTermsExplanation">Receipt Date 30 Day Due Net</Extrinsic>
+            <Extrinsic
+        name="Safety Validation">02/11/2026-18:48:41</Extrinsic>
+            <Extrinsic
+        name="purchaseDescription">PLANT SPECIFIC ATTACHMENT: PURCHASE ORDER ATTACHMENT: ADDITITIONAL SHIPPING DOCUMENTS, LABELING INSTRUCTIONS AND ORDER INFORMATION: 1. To ensure prompt payment, Counterparty or third party shipper, as applicable must reference the Purchase Order number on the outside of all packages. 2. Include a complete packing slip sealed in plastic on the outside  of  all shipments. The packing slip must also reference the Purchase Order number, part number(s), and Buyer/Company stock number. 3. In accordance with the requirements of OSHA's Hazard communication standards, each shipment of hazardous materials must either be accompanied, or preceded by a Safety Data Sheet (SDS) and must be labeled appropriately. 4. Contact Purchasing Agent if any change should  occur in the expected delivery date on any line item. ADDITIONAL DELIVERY INSTRUCTIONS AND INFORMATION:  1. 7 days advance notice is required if special equipment (crane, over-sized forklift, etc.) is needed for unloading. 2. Questions relative to the routing of shipment should be directed to the Purchasing Agent. 3. Warehouse deliveries must be made within the following hours  of operation:  Mandan Refinery: Receiving Hours 7:30 AM – 4:30 PM  (CT), Mon – Thurs.  Friday Deliveries by Appointment Only.  Contact Warehouse Personnel at  701-667-2454.</Extrinsic>
+            <Extrinsic name="lettersOrNotes">Please confirm receipt of this Purchase Order. Immediately notify the Purchasing Agent or Purchase Order Requestor if this Purchase Order cannot be delivered by the required Delivery/Service Date above. Each line item on this Purchase Order shall be  governed by the terms and conditions of the contract, if  any, identified  for such line item ("Applicable Agreement") between the parties, incorporated herein by reference. Any notational variations in the referenced Contract Number (such as QCM, ANDV, L, .1, A, B, C, D) are disregarded for purposes of identifying the Applicable Agreement. In the absence of an Applicable Agreement identified for a line item, such line item, and any defined terms used herein, shall be governed by the Terms and Conditions for Goods and Services provided and incorporated by reference in the link below. HTTPS://WWW.MPCSUPPLIERRELATIONS.COM/CONTENT/DOCUMENTS/ABOUT_MARATHON/GP/TERMSANDCONDITIONS_EFF_03_1_2024.PDF. To obtain a hard copy of the Terms and Conditions for Goods and    Services, please submit a written request to the Purchasing Agent. For purposes of clarity:  “Customer” as used herein means “Buyer/Company", “Supplier” as used herein means “Counterparty”,  “Ship  all items to” as used herein means “Company Work Site” with  respect to  the performance of Work. Any version of a Purchase Order other than  version 1 is deemed a “change order” or Directed Change, as applicable.</Extrinsic>
+         </OrderRequestHeader>
+<ItemOut quantity="1.000" requestedDeliveryDate="2026-03-18T12:00:00+00:00" lineNumber="00010">
+            <ItemID>
+               <SupplierPartID>NOT AVAILABLE</SupplierPartID>
+               <BuyerPartID>000000000100156657</BuyerPartID>
+            </ItemID>
+            <ItemDetail>
+               <UnitPrice>
+                  <Money currency="USD">658.22</Money>
+               </UnitPrice>
+               <Description xml:lang="EN">SWITCH-PRESS,1/4&quot;NPT,30PSI,SIL3 CAPABLE</Description>
+               <UnitOfMeasure>EA</UnitOfMeasure>
+               <PriceBasisQuantity quantity="1" conversionFactor="1">
+                  <UnitOfMeasure>EA</UnitOfMeasure>
+               </PriceBasisQuantity>
+               <Classification domain="ERPCommodityCode">M-EQINRE</Classification>
+               <Classification domain="ERPCommodityCodeDescription">Regulators</Classification>
+               <ManufacturerPartID>B424VXFMFSG60630</ManufacturerPartID>
+               <ManufacturerName xml:lang="EN">Ashcroft</ManufacturerName>
+               <PlannedAcceptanceDays>1</PlannedAcceptanceDays>
+               <Extrinsic name="ReceivingType">4</Extrinsic>
+               <Extrinsic name="extLineNumber">00010</Extrinsic>
+               <Extrinsic name="Delivery/Service Date">03/18/2026</Extrinsic>
+               <Extrinsic name="Compensation Terms">Not Applicable</Extrinsic>
+            </ItemDetail>
+            <Contact role="BuyerPlannerCode">
+               <Name xml:lang="EN">STANDARD STOCK</Name>
+               <IdReference identifier="001" domain="BuyerPlannerCode">
+                  <Description xml:lang="EN">STANDARD STOCK</Description>
+               </IdReference>
+            </Contact>
+            <TermsOfDelivery>
+               <TermsOfDeliveryCode value="TransportCondition"></TermsOfDeliveryCode>
+               <ShippingPaymentMethod value="Other"></ShippingPaymentMethod>
+               <TransportTerms value="DDP"></TransportTerms>
+            </TermsOfDelivery>
+            <Comments xml:lang="EN" type="Material PO Text">
+SWITCH-PRESSURE; 1/4&quot; NPT; 0 - 30 PSI; SIL3 CAPABLE; FM, UL, CE, CRN AND 3A APPROVED</Comments>
+            <ControlKeys>
+               <OCInstruction value="allowed">
+                  <Lower>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Lower>
+                  <Upper>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Upper>
+               </OCInstruction>
+               <ASNInstruction value="allowed">
+                  <Lower>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Lower>
+                  <Upper>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Upper>
+               </ASNInstruction>
+               <InvoiceInstruction value="isNotERS"></InvoiceInstruction>
+            </ControlKeys>
+            <ScheduleLine quantity="1.000" requestedDeliveryDate="2026-03-18T12:00:00+00:00" lineNumber="0001">
+               <UnitOfMeasure>EA</UnitOfMeasure>
+            </ScheduleLine>
+         </ItemOut>
+         <ItemOut quantity="1.000" requestedDeliveryDate="2026-03-18T12:00:00+00:00" lineNumber="00020">
+            <ItemID>
+               <SupplierPartID>NOT AVAILABLE</SupplierPartID>
+               <BuyerPartID>000000000100156656</BuyerPartID>
+            </ItemID>
+            <ItemDetail>
+               <UnitPrice>
+                  <Money currency="USD">673.58</Money>
+               </UnitPrice>
+               <Description xml:lang="EN">SWITCH-PRESS,B-SERIES,0-1000PSI,SIL3 FM</Description>
+               <UnitOfMeasure>EA</UnitOfMeasure>
+               <PriceBasisQuantity quantity="1" conversionFactor="1">
+                  <UnitOfMeasure>EA</UnitOfMeasure>
+               </PriceBasisQuantity>
+               <Classification domain="ERPCommodityCode">M-EQELSR</Classification>
+               <Classification domain="ERPCommodityCodeDescription">Switches &amp; Relays</Classification>
+               <ManufacturerPartID>B427S-X06-FM-CH-NH</ManufacturerPartID>
+               <ManufacturerName xml:lang="EN">Ashcroft</ManufacturerName>
+               <PlannedAcceptanceDays>1</PlannedAcceptanceDays>
+               <Extrinsic name="ReceivingType">4</Extrinsic>
+               <Extrinsic name="extLineNumber">00020</Extrinsic>
+               <Extrinsic name="Delivery/Service Date">03/18/2026</Extrinsic>
+               <Extrinsic name="Compensation Terms">Not Applicable</Extrinsic>
+            </ItemDetail>
+            <Contact role="BuyerPlannerCode">
+               <Name xml:lang="EN">STANDARD STOCK</Name>
+               <IdReference identifier="001" domain="BuyerPlannerCode">
+                  <Description xml:lang="EN">STANDARD STOCK</Description>
+               </IdReference>
+            </Contact>
+            <TermsOfDelivery>
+               <TermsOfDeliveryCode value="TransportCondition"></TermsOfDeliveryCode>
+               <ShippingPaymentMethod value="Other"></ShippingPaymentMethod>
+               <TransportTerms value="DDP"></TransportTerms>
+            </TermsOfDelivery>
+            <Comments xml:lang="EN" type="Material PO Text">
+SWITCH-PRESSURE, B SERIES, 0 TO 1000PSIG, SIL3 FM, UL, CE, CRN AND 3A APPROVED</Comments>
+            <ControlKeys>
+               <OCInstruction value="allowed">
+                  <Lower>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Lower>
+                  <Upper>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Upper>
+               </OCInstruction>
+               <ASNInstruction value="allowed">
+                  <Lower>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Lower>
+                  <Upper>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Upper>
+               </ASNInstruction>
+               <InvoiceInstruction value="isNotERS"></InvoiceInstruction>
+            </ControlKeys>
+            <ScheduleLine quantity="1.000" requestedDeliveryDate="2026-03-18T12:00:00+00:00" lineNumber="0001">
+               <UnitOfMeasure>EA</UnitOfMeasure>
+            </ScheduleLine>
+         </ItemOut>
+         <ItemOut quantity="1.000" requestedDeliveryDate="2026-03-18T12:00:00+00:00" lineNumber="00030">
+            <ItemID>
+               <SupplierPartID>NOT AVAILABLE</SupplierPartID>
+               <BuyerPartID>000000000100156655</BuyerPartID>
+            </ItemID>
+            <ItemDetail>
+               <UnitPrice>
+                  <Money currency="USD">921.28</Money>
+               </UnitPrice>
+               <Description xml:lang="EN">SWITCH-PRESS,DIFF,1/4&quot;NPT,0-30&quot;H20,NEMA4</Description>
+               <UnitOfMeasure>EA</UnitOfMeasure>
+               <PriceBasisQuantity quantity="1" conversionFactor="1">
+                  <UnitOfMeasure>EA</UnitOfMeasure>
+               </PriceBasisQuantity>
+               <Classification domain="ERPCommodityCode">M-EQINRE</Classification>
+               <Classification domain="ERPCommodityCodeDescription">Regulators</Classification>
+               <ManufacturerPartID>D420BXCHFMG5NH30IWD</ManufacturerPartID>
+               <ManufacturerName xml:lang="EN">Ashcroft</ManufacturerName>
+               <PlannedAcceptanceDays>1</PlannedAcceptanceDays>
+               <Extrinsic name="ReceivingType">4</Extrinsic>
+               <Extrinsic name="extLineNumber">00030</Extrinsic>
+               <Extrinsic name="Delivery/Service Date">03/18/2026</Extrinsic>
+               <Extrinsic name="Compensation Terms">Not Applicable</Extrinsic>
+            </ItemDetail>
+            <Contact role="BuyerPlannerCode">
+               <Name xml:lang="EN">STANDARD STOCK</Name>
+               <IdReference identifier="001" domain="BuyerPlannerCode">
+                  <Description xml:lang="EN">STANDARD STOCK</Description>
+               </IdReference>
+            </Contact>
+            <TermsOfDelivery>
+               <TermsOfDeliveryCode value="TransportCondition"></TermsOfDeliveryCode>
+               <ShippingPaymentMethod value="Other"></ShippingPaymentMethod>
+               <TransportTerms value="DDP"></TransportTerms>
+            </TermsOfDelivery>
+            <Comments xml:lang="EN" type="Material PO Text">
+SWITCH-PRESSURE, DIFFERENTIAL, 1/4&quot; NPT, 0-30&quot; H20, NEMA 4X, WATERTIGHT</Comments>
+            <ControlKeys>
+               <OCInstruction value="allowed">
+                  <Lower>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Lower>
+                  <Upper>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Upper>
+               </OCInstruction>
+               <ASNInstruction value="allowed">
+                  <Lower>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Lower>
+                  <Upper>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Upper>
+               </ASNInstruction>
+               <InvoiceInstruction value="isNotERS"></InvoiceInstruction>
+            </ControlKeys>
+            <ScheduleLine quantity="1.000" requestedDeliveryDate="2026-03-18T12:00:00+00:00" lineNumber="0001">
+               <UnitOfMeasure>EA</UnitOfMeasure>
+            </ScheduleLine>
+         </ItemOut>
+         <ItemOut quantity="1.000" requestedDeliveryDate="2026-03-18T12:00:00+00:00" lineNumber="00040">
+            <ItemID>
+               <SupplierPartID>NOT AVAILABLE</SupplierPartID>
+               <BuyerPartID>000000000100156654</BuyerPartID>
+            </ItemID>
+            <ItemDetail>
+               <UnitPrice>
+                  <Money currency="USD">498.65</Money>
+               </UnitPrice>
+               <Description xml:lang="EN">SWITCH-PRESS,1/4&quot;NPT,200PSI,SIL3 CAPABLE</Description>
+               <UnitOfMeasure>EA</UnitOfMeasure>
+               <PriceBasisQuantity quantity="1" conversionFactor="1">
+                  <UnitOfMeasure>EA</UnitOfMeasure>
+               </PriceBasisQuantity>
+               <Classification domain="ERPCommodityCode">M-EQINRE</Classification>
+               <Classification domain="ERPCommodityCodeDescription">Regulators</Classification>
+               <ManufacturerPartID>B424SXFM200</ManufacturerPartID>
+               <ManufacturerName xml:lang="EN">Ashcroft</ManufacturerName>
+               <PlannedAcceptanceDays>1</PlannedAcceptanceDays>
+               <Extrinsic name="ReceivingType">4</Extrinsic>
+               <Extrinsic name="extLineNumber">00040</Extrinsic>
+               <Extrinsic name="Delivery/Service Date">03/18/2026</Extrinsic>
+               <Extrinsic name="Compensation Terms">Not Applicable</Extrinsic>
+            </ItemDetail>
+            <Contact role="BuyerPlannerCode">
+               <Name xml:lang="EN">STANDARD STOCK</Name>
+               <IdReference identifier="001" domain="BuyerPlannerCode">
+                  <Description xml:lang="EN">STANDARD STOCK</Description>
+               </IdReference>
+            </Contact>
+            <TermsOfDelivery>
+               <TermsOfDeliveryCode value="TransportCondition"></TermsOfDeliveryCode>
+               <ShippingPaymentMethod value="Other"></ShippingPaymentMethod>
+               <TransportTerms value="DDP"></TransportTerms>
+            </TermsOfDelivery>
+            <Comments xml:lang="EN" type="Material PO Text">
+SWITCH-PRESSURE; 1/4&quot; NPT; 0 - 200 PSI; SIL3 CAPABLE; FM, UL, CE, CRN AND 3A APPROVED
+</Comments>
+            <ControlKeys>
+               <OCInstruction value="allowed">
+                  <Lower>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Lower>
+                  <Upper>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Upper>
+               </OCInstruction>
+               <ASNInstruction value="allowed">
+                  <Lower>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Lower>
+                  <Upper>
+                     <Tolerances>
+                        <TimeTolerance limit="999" type="days"></TimeTolerance>
+                     </Tolerances>
+                  </Upper>
+               </ASNInstruction>
+               <InvoiceInstruction value="isNotERS"></InvoiceInstruction>
+            </ControlKeys>
+            <ScheduleLine quantity="1.000" requestedDeliveryDate="2026-03-18T12:00:00+00:00" lineNumber="0001">
+               <UnitOfMeasure>EA</UnitOfMeasure>
+            </ScheduleLine>
+         </ItemOut>
+      </OrderRequest>
+   </Request>
+</cXML>

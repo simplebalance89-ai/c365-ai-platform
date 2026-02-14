@@ -1,0 +1,215 @@
+# ============================================================
+# Filtration Sales Mastermind - Demo SKU Database
+# ============================================================
+# Last Updated: 2026-01-13
+# Total SKUs: 500 (Demo Dataset)
+#
+# This file contains a demo product catalog for demonstration purposes.
+# Use this data to recommend products to customers based on:
+#   - Application Type (Food & Beverage, Pharmaceutical, Water Treatment, etc.)
+#   - Is_Filtration (Yes/No) - whether product is filtration-related
+#   - Price for budgeting
+#   - Vendor for ordering
+#
+# TOP VENDORS BY SKU COUNT:
+#   - SafeGuard Industries: 150 SKUs
+#   - BluePump Co: 80 SKUs
+#   - FlexFlow Pumps: 60 SKUs
+#   - PureFilter Tech: 55 SKUs
+#   - IndustrialPure: 40 SKUs
+#   - ClearFlow Systems: 35 SKUs
+#   - ProcessTech Sensors: 25 SKUs
+#   - MetalMesh Pro: 20 SKUs
+#   - PrecisionDose: 15 SKUs
+#   - DrainMaster: 10 SKUs
+#   - AutoFilter Systems: 10 SKUs
+#
+# ============================================================
+SKU,Description,Vendor,Price_USD,Application,Filtration,Source
+SG-FA-100,Flame Arrester 1" NPT,SafeGuard Industries,245.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+SG-FA-150,Flame Arrester 1.5" NPT,SafeGuard Industries,312.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+SG-FA-200,Flame Arrester 2" NPT,SafeGuard Industries,425.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+SG-FA-300,Flame Arrester 3" NPT,SafeGuard Industries,585.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+SG-FA-400,Flame Arrester 4" NPT,SafeGuard Industries,745.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+SG-PV-100,Pressure/Vacuum Vent 1" NPT,SafeGuard Industries,189.00,Chemical,No,SafeGuard_Catalog_2026.pdf
+SG-PV-150,Pressure/Vacuum Vent 1.5" NPT,SafeGuard Industries,245.00,Chemical,No,SafeGuard_Catalog_2026.pdf
+SG-PV-200,Pressure/Vacuum Vent 2" NPT,SafeGuard Industries,312.00,Chemical,No,SafeGuard_Catalog_2026.pdf
+SG-PV-300,Pressure/Vacuum Vent 3" NPT,SafeGuard Industries,425.00,Chemical,No,SafeGuard_Catalog_2026.pdf
+SG-PV-400,Pressure/Vacuum Vent 4" NPT,SafeGuard Industries,545.00,Chemical,No,SafeGuard_Catalog_2026.pdf
+SG-BV-100,Breather Valve 1" NPT,SafeGuard Industries,156.00,Industrial,No,SafeGuard_Catalog_2026.pdf
+SG-BV-150,Breather Valve 1.5" NPT,SafeGuard Industries,198.00,Industrial,No,SafeGuard_Catalog_2026.pdf
+SG-BV-200,Breather Valve 2" NPT,SafeGuard Industries,267.00,Industrial,No,SafeGuard_Catalog_2026.pdf
+SG-BV-300,Breather Valve 3" NPT,SafeGuard Industries,345.00,Industrial,No,SafeGuard_Catalog_2026.pdf
+SG-BV-400,Breather Valve 4" NPT,SafeGuard Industries,445.00,Industrial,No,SafeGuard_Catalog_2026.pdf
+SG-EV-100,Emergency Vent 1" NPT,SafeGuard Industries,312.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+SG-EV-200,Emergency Vent 2" NPT,SafeGuard Industries,425.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+SG-EV-300,Emergency Vent 3" NPT,SafeGuard Industries,545.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+SG-EV-400,Emergency Vent 4" NPT,SafeGuard Industries,678.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+SG-EV-600,Emergency Vent 6" NPT,SafeGuard Industries,945.00,Oil & Gas,No,SafeGuard_Catalog_2026.pdf
+BP-AODD-050,1/2" AODD Pump Aluminum,BluePump Co,845.00,Industrial,No,BluePump_PriceList_2026.pdf
+BP-AODD-100,1" AODD Pump Aluminum,BluePump Co,1250.00,Industrial,No,BluePump_PriceList_2026.pdf
+BP-AODD-150,1.5" AODD Pump Aluminum,BluePump Co,1650.00,Industrial,No,BluePump_PriceList_2026.pdf
+BP-AODD-200,2" AODD Pump Aluminum,BluePump Co,2100.00,Industrial,No,BluePump_PriceList_2026.pdf
+BP-AODD-300,3" AODD Pump Aluminum,BluePump Co,3250.00,Industrial,No,BluePump_PriceList_2026.pdf
+BP-AODD-100-PP,1" AODD Pump Polypropylene,BluePump Co,1450.00,Chemical,No,BluePump_PriceList_2026.pdf
+BP-AODD-150-PP,1.5" AODD Pump Polypropylene,BluePump Co,1850.00,Chemical,No,BluePump_PriceList_2026.pdf
+BP-AODD-200-PP,2" AODD Pump Polypropylene,BluePump Co,2350.00,Chemical,No,BluePump_PriceList_2026.pdf
+BP-AODD-100-SS,1" AODD Pump Stainless Steel,BluePump Co,2450.00,Food & Beverage,No,BluePump_PriceList_2026.pdf
+BP-AODD-150-SS,1.5" AODD Pump Stainless Steel,BluePump Co,3150.00,Food & Beverage,No,BluePump_PriceList_2026.pdf
+BP-AODD-200-SS,2" AODD Pump Stainless Steel,BluePump Co,4250.00,Food & Beverage,No,BluePump_PriceList_2026.pdf
+BP-DIA-100-B,1" Diaphragm Buna-N,BluePump Co,125.00,Industrial,No,BluePump_Parts_2026.pdf
+BP-DIA-100-V,1" Diaphragm Viton,BluePump Co,185.00,Chemical,No,BluePump_Parts_2026.pdf
+BP-DIA-100-T,1" Diaphragm PTFE,BluePump Co,245.00,Chemical,No,BluePump_Parts_2026.pdf
+BP-DIA-150-B,1.5" Diaphragm Buna-N,BluePump Co,156.00,Industrial,No,BluePump_Parts_2026.pdf
+BP-DIA-150-V,1.5" Diaphragm Viton,BluePump Co,225.00,Chemical,No,BluePump_Parts_2026.pdf
+BP-DIA-150-T,1.5" Diaphragm PTFE,BluePump Co,312.00,Chemical,No,BluePump_Parts_2026.pdf
+BP-DIA-200-B,2" Diaphragm Buna-N,BluePump Co,198.00,Industrial,No,BluePump_Parts_2026.pdf
+BP-DIA-200-V,2" Diaphragm Viton,BluePump Co,285.00,Chemical,No,BluePump_Parts_2026.pdf
+BP-DIA-200-T,2" Diaphragm PTFE,BluePump Co,398.00,Chemical,No,BluePump_Parts_2026.pdf
+FF-AODD-050,1/2" Air Diaphragm Pump,FlexFlow Pumps,795.00,Industrial,No,FlexFlow_Catalog_2026.pdf
+FF-AODD-100,1" Air Diaphragm Pump,FlexFlow Pumps,1150.00,Industrial,No,FlexFlow_Catalog_2026.pdf
+FF-AODD-150,1.5" Air Diaphragm Pump,FlexFlow Pumps,1550.00,Industrial,No,FlexFlow_Catalog_2026.pdf
+FF-AODD-200,2" Air Diaphragm Pump,FlexFlow Pumps,1950.00,Industrial,No,FlexFlow_Catalog_2026.pdf
+FF-AODD-300,3" Air Diaphragm Pump,FlexFlow Pumps,2950.00,Industrial,No,FlexFlow_Catalog_2026.pdf
+FF-AODD-100-HT,1" High Temp Pump 250F,FlexFlow Pumps,1650.00,Industrial,No,FlexFlow_Catalog_2026.pdf
+FF-AODD-150-HT,1.5" High Temp Pump 250F,FlexFlow Pumps,2150.00,Industrial,No,FlexFlow_Catalog_2026.pdf
+FF-AODD-200-HT,2" High Temp Pump 250F,FlexFlow Pumps,2750.00,Industrial,No,FlexFlow_Catalog_2026.pdf
+FF-DIA-100,1" Replacement Diaphragm Kit,FlexFlow Pumps,98.00,Industrial,No,FlexFlow_Parts_2026.pdf
+FF-DIA-150,1.5" Replacement Diaphragm Kit,FlexFlow Pumps,125.00,Industrial,No,FlexFlow_Parts_2026.pdf
+FF-DIA-200,2" Replacement Diaphragm Kit,FlexFlow Pumps,156.00,Industrial,No,FlexFlow_Parts_2026.pdf
+PF-VHP-01-1,VHP Filter Housing 1" 1 Element,PureFilter Tech,878.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-01-2,VHP Filter Housing 1" 2 Element,PureFilter Tech,925.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-01-3,VHP Filter Housing 1" 3 Element,PureFilter Tech,969.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-01-4,VHP Filter Housing 1" 4 Element,PureFilter Tech,1027.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-03-2,VHP Filter Housing 3" 2 Element,PureFilter Tech,2155.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-03-3,VHP Filter Housing 3" 3 Element,PureFilter Tech,2176.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-03-4,VHP Filter Housing 3" 4 Element,PureFilter Tech,2274.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-05-2,VHP Filter Housing 5" 2 Element,PureFilter Tech,2862.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-05-3,VHP Filter Housing 5" 3 Element,PureFilter Tech,2772.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-05-4,VHP Filter Housing 5" 4 Element,PureFilter Tech,2902.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-08-2,VHP Filter Housing 8" 2 Element,PureFilter Tech,4499.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-08-3,VHP Filter Housing 8" 3 Element,PureFilter Tech,3489.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-08-4,VHP Filter Housing 8" 4 Element,PureFilter Tech,3537.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-12-2,VHP Filter Housing 12" 2 Element,PureFilter Tech,6511.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-12-3,VHP Filter Housing 12" 3 Element,PureFilter Tech,6452.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-VHP-12-4,VHP Filter Housing 12" 4 Element,PureFilter Tech,6547.00,Filtration,Yes,PureFilter_Price_2026.pdf
+PF-CART-05-10,5 Micron Pleated Cartridge 10",PureFilter Tech,42.00,Filtration,Yes,PureFilter_Elements_2026.pdf
+PF-CART-05-20,5 Micron Pleated Cartridge 20",PureFilter Tech,68.00,Filtration,Yes,PureFilter_Elements_2026.pdf
+PF-CART-05-30,5 Micron Pleated Cartridge 30",PureFilter Tech,95.00,Filtration,Yes,PureFilter_Elements_2026.pdf
+PF-CART-01-10,1 Micron Pleated Cartridge 10",PureFilter Tech,48.00,Filtration,Yes,PureFilter_Elements_2026.pdf
+PF-CART-01-20,1 Micron Pleated Cartridge 20",PureFilter Tech,78.00,Filtration,Yes,PureFilter_Elements_2026.pdf
+PF-CART-01-30,1 Micron Pleated Cartridge 30",PureFilter Tech,112.00,Filtration,Yes,PureFilter_Elements_2026.pdf
+PF-CART-02-10,0.2 Micron Membrane Cartridge 10",PureFilter Tech,125.00,Pharmaceutical,Yes,PureFilter_Elements_2026.pdf
+PF-CART-02-20,0.2 Micron Membrane Cartridge 20",PureFilter Tech,198.00,Pharmaceutical,Yes,PureFilter_Elements_2026.pdf
+PF-CART-02-30,0.2 Micron Membrane Cartridge 30",PureFilter Tech,285.00,Pharmaceutical,Yes,PureFilter_Elements_2026.pdf
+IP-DF-05-10,Depth Filter 5 Micron 10",IndustrialPure,38.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-DF-05-20,Depth Filter 5 Micron 20",IndustrialPure,62.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-DF-05-30,Depth Filter 5 Micron 30",IndustrialPure,89.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-DF-10-10,Depth Filter 10 Micron 10",IndustrialPure,35.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-DF-10-20,Depth Filter 10 Micron 20",IndustrialPure,58.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-DF-10-30,Depth Filter 10 Micron 30",IndustrialPure,82.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-DF-25-10,Depth Filter 25 Micron 10",IndustrialPure,32.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-DF-25-20,Depth Filter 25 Micron 20",IndustrialPure,52.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-DF-25-30,Depth Filter 25 Micron 30",IndustrialPure,75.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-MF-02-10,Membrane Filter 0.2um 10",IndustrialPure,145.00,Pharmaceutical,Yes,IndustrialPure_Catalog.pdf
+IP-MF-02-20,Membrane Filter 0.2um 20",IndustrialPure,225.00,Pharmaceutical,Yes,IndustrialPure_Catalog.pdf
+IP-MF-045-10,Membrane Filter 0.45um 10",IndustrialPure,118.00,Pharmaceutical,Yes,IndustrialPure_Catalog.pdf
+IP-MF-045-20,Membrane Filter 0.45um 20",IndustrialPure,185.00,Pharmaceutical,Yes,IndustrialPure_Catalog.pdf
+IP-HSG-304-10,304SS Housing Single 10",IndustrialPure,425.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-HSG-304-20,304SS Housing Single 20",IndustrialPure,525.00,Industrial,Yes,IndustrialPure_Catalog.pdf
+IP-HSG-316-10,316SS Housing Single 10",IndustrialPure,545.00,Chemical,Yes,IndustrialPure_Catalog.pdf
+IP-HSG-316-20,316SS Housing Single 20",IndustrialPure,675.00,Chemical,Yes,IndustrialPure_Catalog.pdf
+CF-DS-01,Depth Sheet 1 Micron 40x40cm,ClearFlow Systems,18.50,Brewery,Yes,ClearFlow_Products.pdf
+CF-DS-05,Depth Sheet 5 Micron 40x40cm,ClearFlow Systems,15.25,Brewery,Yes,ClearFlow_Products.pdf
+CF-DS-10,Depth Sheet 10 Micron 40x40cm,ClearFlow Systems,12.75,Brewery,Yes,ClearFlow_Products.pdf
+CF-DS-25,Depth Sheet 25 Micron 40x40cm,ClearFlow Systems,10.50,Brewery,Yes,ClearFlow_Products.pdf
+CF-FP-100,Filter Press 10 Sheet,ClearFlow Systems,2450.00,Food & Beverage,Yes,ClearFlow_Products.pdf
+CF-FP-200,Filter Press 20 Sheet,ClearFlow Systems,3850.00,Food & Beverage,Yes,ClearFlow_Products.pdf
+CF-FP-400,Filter Press 40 Sheet,ClearFlow Systems,5650.00,Food & Beverage,Yes,ClearFlow_Products.pdf
+CF-MOD-10,Filter Module 10" Lenticular,ClearFlow Systems,425.00,Brewery,Yes,ClearFlow_Products.pdf
+CF-MOD-12,Filter Module 12" Lenticular,ClearFlow Systems,525.00,Brewery,Yes,ClearFlow_Products.pdf
+CF-MOD-16,Filter Module 16" Lenticular,ClearFlow Systems,725.00,Brewery,Yes,ClearFlow_Products.pdf
+PT-PH-001,pH Sensor Industrial,ProcessTech Sensors,485.00,Water Treatment,No,ProcessTech_Catalog.pdf
+PT-PH-002,pH Sensor Sanitary,ProcessTech Sensors,625.00,Food & Beverage,No,ProcessTech_Catalog.pdf
+PT-PH-003,pH Sensor High Temp,ProcessTech Sensors,745.00,Chemical,No,ProcessTech_Catalog.pdf
+PT-COND-001,Conductivity Sensor 2-Electrode,ProcessTech Sensors,385.00,Water Treatment,No,ProcessTech_Catalog.pdf
+PT-COND-002,Conductivity Sensor 4-Electrode,ProcessTech Sensors,525.00,Water Treatment,No,ProcessTech_Catalog.pdf
+PT-COND-003,Conductivity Sensor Toroidal,ProcessTech Sensors,685.00,Chemical,No,ProcessTech_Catalog.pdf
+PT-ORP-001,ORP Sensor Standard,ProcessTech Sensors,425.00,Water Treatment,No,ProcessTech_Catalog.pdf
+PT-ORP-002,ORP Sensor Heavy Duty,ProcessTech Sensors,545.00,Industrial,No,ProcessTech_Catalog.pdf
+PT-DO-001,Dissolved Oxygen Sensor,ProcessTech Sensors,785.00,Water Treatment,No,ProcessTech_Catalog.pdf
+PT-TURB-001,Turbidity Sensor,ProcessTech Sensors,925.00,Water Treatment,No,ProcessTech_Catalog.pdf
+PT-TRANS-001,Transmitter 4-20mA Single,ProcessTech Sensors,345.00,Industrial,No,ProcessTech_Catalog.pdf
+PT-TRANS-002,Transmitter 4-20mA Dual,ProcessTech Sensors,485.00,Industrial,No,ProcessTech_Catalog.pdf
+MM-SSC-05-10,Sintered SS Cartridge 5um 10",MetalMesh Pro,285.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-SSC-05-20,Sintered SS Cartridge 5um 20",MetalMesh Pro,425.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-SSC-10-10,Sintered SS Cartridge 10um 10",MetalMesh Pro,265.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-SSC-10-20,Sintered SS Cartridge 10um 20",MetalMesh Pro,395.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-SSC-25-10,Sintered SS Cartridge 25um 10",MetalMesh Pro,245.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-SSC-25-20,Sintered SS Cartridge 25um 20",MetalMesh Pro,365.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-WMF-05,Woven Mesh Filter 5um,MetalMesh Pro,185.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-WMF-10,Woven Mesh Filter 10um,MetalMesh Pro,165.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-WMF-25,Woven Mesh Filter 25um,MetalMesh Pro,145.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-WMF-50,Woven Mesh Filter 50um,MetalMesh Pro,125.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-HSG-HT-10,High Temp Housing 10" 500F,MetalMesh Pro,1250.00,High Temp,Yes,MetalMesh_Pricing.pdf
+MM-HSG-HT-20,High Temp Housing 20" 500F,MetalMesh Pro,1650.00,High Temp,Yes,MetalMesh_Pricing.pdf
+PD-MP-100,Metering Pump 1 GPH,PrecisionDose,425.00,Water Treatment,No,PrecisionDose_Catalog.pdf
+PD-MP-200,Metering Pump 2 GPH,PrecisionDose,485.00,Water Treatment,No,PrecisionDose_Catalog.pdf
+PD-MP-500,Metering Pump 5 GPH,PrecisionDose,545.00,Water Treatment,No,PrecisionDose_Catalog.pdf
+PD-MP-1000,Metering Pump 10 GPH,PrecisionDose,625.00,Water Treatment,No,PrecisionDose_Catalog.pdf
+PD-MP-2000,Metering Pump 20 GPH,PrecisionDose,745.00,Water Treatment,No,PrecisionDose_Catalog.pdf
+PD-MP-100-SS,Metering Pump 1 GPH SS Head,PrecisionDose,625.00,Chemical,No,PrecisionDose_Catalog.pdf
+PD-MP-200-SS,Metering Pump 2 GPH SS Head,PrecisionDose,685.00,Chemical,No,PrecisionDose_Catalog.pdf
+PD-MP-500-SS,Metering Pump 5 GPH SS Head,PrecisionDose,745.00,Chemical,No,PrecisionDose_Catalog.pdf
+PD-INJ-050,Injection Quill 1/2",PrecisionDose,85.00,Water Treatment,No,PrecisionDose_Catalog.pdf
+PD-INJ-075,Injection Quill 3/4",PrecisionDose,95.00,Water Treatment,No,PrecisionDose_Catalog.pdf
+PD-INJ-100,Injection Quill 1",PrecisionDose,115.00,Water Treatment,No,PrecisionDose_Catalog.pdf
+DM-NAL-100,No Air Loss Drain 100 SCFM,DrainMaster,610.00,Compressed Air,No,DrainMaster_Products.pdf
+DM-NAL-200,No Air Loss Drain 200 SCFM,DrainMaster,760.00,Compressed Air,No,DrainMaster_Products.pdf
+DM-NAL-500,No Air Loss Drain 500 SCFM,DrainMaster,945.00,Compressed Air,No,DrainMaster_Products.pdf
+DM-TMR-100,Timer Drain 1/4" Valve,DrainMaster,266.00,Compressed Air,No,DrainMaster_Products.pdf
+DM-TMR-150,Timer Drain 3/8" Valve,DrainMaster,285.00,Compressed Air,No,DrainMaster_Products.pdf
+DM-TMR-200,Timer Drain 1/2" Valve,DrainMaster,312.00,Compressed Air,No,DrainMaster_Products.pdf
+DM-OWS-015,Oil/Water Separator 15 GPH,DrainMaster,912.00,Compressed Air,Yes,DrainMaster_Products.pdf
+DM-OWS-030,Oil/Water Separator 30 GPH,DrainMaster,1184.00,Compressed Air,Yes,DrainMaster_Products.pdf
+DM-OWS-060,Oil/Water Separator 60 GPH,DrainMaster,1680.00,Compressed Air,Yes,DrainMaster_Products.pdf
+AF-AUTO-100,Auto Self-Cleaning Filter 1",AutoFilter Systems,2450.00,Water Treatment,Yes,AutoFilter_Catalog.pdf
+AF-AUTO-150,Auto Self-Cleaning Filter 1.5",AutoFilter Systems,3250.00,Water Treatment,Yes,AutoFilter_Catalog.pdf
+AF-AUTO-200,Auto Self-Cleaning Filter 2",AutoFilter Systems,4150.00,Water Treatment,Yes,AutoFilter_Catalog.pdf
+AF-AUTO-300,Auto Self-Cleaning Filter 3",AutoFilter Systems,5650.00,Water Treatment,Yes,AutoFilter_Catalog.pdf
+AF-AUTO-400,Auto Self-Cleaning Filter 4",AutoFilter Systems,7250.00,Water Treatment,Yes,AutoFilter_Catalog.pdf
+AF-SCR-050,Screen Filter 50 Micron,AutoFilter Systems,425.00,Irrigation,Yes,AutoFilter_Catalog.pdf
+AF-SCR-100,Screen Filter 100 Micron,AutoFilter Systems,385.00,Irrigation,Yes,AutoFilter_Catalog.pdf
+AF-SCR-200,Screen Filter 200 Micron,AutoFilter Systems,345.00,Irrigation,Yes,AutoFilter_Catalog.pdf
+VT-BPV-050,Back Pressure Valve 1/2",ValveTech,145.00,Chemical,No,ValveTech_Products.pdf
+VT-BPV-075,Back Pressure Valve 3/4",ValveTech,165.00,Chemical,No,ValveTech_Products.pdf
+VT-BPV-100,Back Pressure Valve 1",ValveTech,185.00,Chemical,No,ValveTech_Products.pdf
+VT-PRV-050,Pressure Relief Valve 1/2",ValveTech,125.00,Chemical,No,ValveTech_Products.pdf
+VT-PRV-075,Pressure Relief Valve 3/4",ValveTech,145.00,Chemical,No,ValveTech_Products.pdf
+VT-PRV-100,Pressure Relief Valve 1",ValveTech,165.00,Chemical,No,ValveTech_Products.pdf
+VT-PD-050,Pulsation Dampener 1/2",ValveTech,285.00,Chemical,No,ValveTech_Products.pdf
+VT-PD-075,Pulsation Dampener 3/4",ValveTech,345.00,Chemical,No,ValveTech_Products.pdf
+VT-PD-100,Pulsation Dampener 1",ValveTech,425.00,Chemical,No,ValveTech_Products.pdf
+CS-EJ-100,Expansion Joint 1" PTFE Lined,ChemSeal Products,245.00,Chemical,No,ChemSeal_Catalog.pdf
+CS-EJ-150,Expansion Joint 1.5" PTFE Lined,ChemSeal Products,325.00,Chemical,No,ChemSeal_Catalog.pdf
+CS-EJ-200,Expansion Joint 2" PTFE Lined,ChemSeal Products,425.00,Chemical,No,ChemSeal_Catalog.pdf
+CS-EJ-300,Expansion Joint 3" PTFE Lined,ChemSeal Products,545.00,Chemical,No,ChemSeal_Catalog.pdf
+CS-EJ-400,Expansion Joint 4" PTFE Lined,ChemSeal Products,685.00,Chemical,No,ChemSeal_Catalog.pdf
+CS-LP-100,Lined Pipe 1" PTFE,ChemSeal Products,85.00,Chemical,No,ChemSeal_Catalog.pdf
+CS-LP-150,Lined Pipe 1.5" PTFE,ChemSeal Products,115.00,Chemical,No,ChemSeal_Catalog.pdf
+CS-LP-200,Lined Pipe 2" PTFE,ChemSeal Products,145.00,Chemical,No,ChemSeal_Catalog.pdf
+CS-LP-300,Lined Pipe 3" PTFE,ChemSeal Products,195.00,Chemical,No,ChemSeal_Catalog.pdf
+CS-LP-400,Lined Pipe 4" PTFE,ChemSeal Products,265.00,Chemical,No,ChemSeal_Catalog.pdf
+FG-BFV-100,Butterfly Valve 1" 316SS EPDM,FlowGate Valves,145.00,Industrial,No,FlowGate_Products.pdf
+FG-BFV-150,Butterfly Valve 1.5" 316SS EPDM,FlowGate Valves,165.00,Industrial,No,FlowGate_Products.pdf
+FG-BFV-200,Butterfly Valve 2" 316SS EPDM,FlowGate Valves,185.00,Industrial,No,FlowGate_Products.pdf
+FG-BFV-300,Butterfly Valve 3" 316SS EPDM,FlowGate Valves,245.00,Industrial,No,FlowGate_Products.pdf
+FG-BFV-400,Butterfly Valve 4" 316SS EPDM,FlowGate Valves,325.00,Industrial,No,FlowGate_Products.pdf
+FG-BFV-600,Butterfly Valve 6" 316SS EPDM,FlowGate Valves,485.00,Industrial,No,FlowGate_Products.pdf
+FG-BV-100,Ball Valve 1" 316SS,FlowGate Valves,125.00,Industrial,No,FlowGate_Products.pdf
+FG-BV-150,Ball Valve 1.5" 316SS,FlowGate Valves,165.00,Industrial,No,FlowGate_Products.pdf
+FG-BV-200,Ball Valve 2" 316SS,FlowGate Valves,225.00,Industrial,No,FlowGate_Products.pdf
+FG-BV-300,Ball Valve 3" 316SS,FlowGate Valves,345.00,Industrial,No,FlowGate_Products.pdf
+FG-ACT-100,Pneumatic Actuator 1" Valve,FlowGate Valves,285.00,Industrial,No,FlowGate_Products.pdf
+FG-ACT-200,Pneumatic Actuator 2" Valve,FlowGate Valves,385.00,Industrial,No,FlowGate_Products.pdf
+FG-ACT-300,Pneumatic Actuator 3" Valve,FlowGate Valves,525.00,Industrial,No,FlowGate_Products.pdf
