@@ -364,9 +364,9 @@ RULES:
 - Never guess prices — flag for review if missing
 - Show what will be imported before executing"""
     },
-    "M4 Knick Sales Configurator": {
+    "Sales Configurator": {
         "description": "Analytical sensor expert — configure measurement loops, lookup SKUs, cross-reference competitors",
-        "system_prompt": """You are the M4 Knick Sales Configurator, built by C365 on the Azure AI Platform for M4 Knick LLC (M4Connect).
+        "system_prompt": """You are the Sales Configurator, built by C365 on the Azure AI Platform.
 
 ROLE: You help internal sales teams and 14 rep firms configure complete measurement loops, look up products, cross-reference competitors, and prepare for customer meetings. You are an expert in liquid analytical measurement: pH, ORP, conductivity, and dissolved oxygen.
 
@@ -445,9 +445,9 @@ OUTPUT FORMAT:
 KNOWLEDGE BASE:
 """ + load_knowledge_dir(M4KNICK_DATA_DIR)
     },
-    "Ellsworth Adhesives Mastermind": {
+    "Adhesives Mastermind": {
         "description": "Adhesive expert — product matching, spec lookup, cross-references, coverage calculators",
-        "system_prompt": """You are the Ellsworth Adhesives Mastermind — The Digital Glue Doctor, built by C365 on the Azure AI Platform for Ellsworth Adhesives.
+        "system_prompt": """You are the Adhesives Mastermind — The Digital Glue Doctor, built by C365 on the Azure AI Platform.
 
 ROLE: You are a specialty chemicals and adhesives expert for the world's largest distributor of specialty adhesives. You help sales reps, engineers, and customers find the right adhesive, sealant, coating, or dispensing equipment for any application. You represent 65+ manufacturers including Henkel/Loctite, 3M, Dow, Dymax, Parker LORD, Master Bond, Permabond, and more.
 
@@ -843,8 +843,8 @@ WELCOME_MESSAGES = {
     "M365 Integration Agent": "**M365 Integration Agent** ready. Ask me to find documents in SharePoint, search Outlook emails, check Teams messages, review calendar — I search across your entire Microsoft 365 environment.",
     "Emma Robot — RPA": "**Emma Robot RPA** ready. Paste structured order data (JSON) and I'll build the execution plan to type it directly into P21 — no API needed. Emma sees the screen and acts like a human.",
     "Order Processing Agent — Email": "**Order Processing Agent** ready. Paste any order email — freeform, forwarded chains, messy text — and I'll extract a structured Purchase Order from it.",
-    "M4 Knick Sales Configurator": "**M4 Knick Sales Configurator** ready. I help you configure complete measurement loops (pH, ORP, conductivity, dissolved oxygen), look up SKUs and specs, cross-reference competitors, and prep for customer meetings. Say **demo** for a walkthrough or **/configure** to build a loop.",
-    "Ellsworth Adhesives Mastermind": "**Ellsworth Adhesives Mastermind** ready — your Digital Glue Doctor. I match adhesives to applications, look up specs, cross-reference competitors, calculate coverage, and troubleshoot bonding issues across 65+ manufacturers. Say **demo** for the full tour or describe your bonding challenge. Talk or type. Voice works.",
+    "Sales Configurator": "**Sales Configurator** ready. I help you configure complete measurement loops (pH, ORP, conductivity, dissolved oxygen), look up SKUs and specs, cross-reference competitors, and prep for customer meetings. Say **demo** for a walkthrough or **/configure** to build a loop.",
+    "Adhesives Mastermind": "**Adhesives Mastermind** ready — your Digital Glue Doctor. I match adhesives to applications, look up specs, cross-reference competitors, calculate coverage, and troubleshoot bonding issues across 65+ manufacturers. Say **demo** for the full tour or describe your bonding challenge. Talk or type. Voice works.",
 }
 if not st.session_state.messages:
     with st.chat_message("assistant"):
@@ -1270,8 +1270,8 @@ PLACEHOLDERS = {
     "M365 Integration Agent": "Ask me to find something across M365...",
     "Emma Robot — RPA": "Paste order JSON or say 'demo' to see an execution plan...",
     "Order Processing Agent — Email": "Paste an order email...",
-    "M4 Knick Sales Configurator": "Ask about sensors, transmitters, or type '/configure' to build a loop...",
-    "Ellsworth Adhesives Mastermind": "Describe your bonding challenge, or type 'demo'...",
+    "Sales Configurator": "Ask about sensors, transmitters, or type '/configure' to build a loop...",
+    "Adhesives Mastermind": "Describe your bonding challenge, or type 'demo'...",
 }
 if prompt := st.chat_input(PLACEHOLDERS.get(agent_name, "Type a message...")):
     # Add user message
